@@ -105,9 +105,4 @@ These are suggestions from sales data only. The file has no profit, cost or disc
 | [`superstore_excel_dashboard.png`](superstore_excel_dashboard.png) | Picture of the Excel dashboard shown above |
 | [`superstore_powerbi_dashboard.png`](superstore_powerbi_dashboard.png) | Picture of the Power BI dashboard shown above |
 
-## How to run
-
-1. In MySQL Workbench, import the sales file into a table called `train` (right-click Tables, then Table Data Import Wizard), inside a database called `Superstore`.
-2. Open `superstore_analysis.sql` and run each query on its own. Query 0 creates the view, and its check should return 9800 rows, first order 2015-01-03, last order 2018-12-30 and total sales 2261536.78.
-3. For the forecast (query 12), select the `SET @last_year` line together with the query. Use 2017 to test the method on 2018 and 2018 to forecast 2019.
-4. For Excel, open the workbook and go to the `Dashboard` sheet. Pick a Region and a Category in the yellow cells.
+DATA- https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
